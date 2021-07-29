@@ -1,0 +1,39 @@
+Docker  ? 
+
+Docker is a containerization platform used for packaging an application and its dependencies together within a Docker Container. 
+
+This ensures smooth functioning of an application irrespective of changes in the platform or environment. 
+
+Why Docker was created ? 
+
+"<it works on my machine but not working on your machine>"
+
+
+Architecture 
+
+
+Container 1 Container 2                   Layer 3 
+
+App + Lib   App + Lib
+
+Docker                                    Layer 2
+
+Host OS                                   Layer 1
+
+How Docker is different from VMware or Virtualization ? 
+
+
+Dockerfile 
+
+A text documents that contains the list of commads which can be invoked by a user in CLI in order to creeate or assemble an docker image. 
+
+Dockerfile ----> Build ----> Dockerimage (can be treated as an executable file) --->Runs -----> Container
+
+
+Container is the running instances of a docker image. Ready to use applications which are created from Docker Images that is the ultimate utility of docker images. 
+
+
+
+
+
+
