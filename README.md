@@ -1,1 +1,1 @@
-# dockerTraining
+# dockerTraining - integrated with CI
