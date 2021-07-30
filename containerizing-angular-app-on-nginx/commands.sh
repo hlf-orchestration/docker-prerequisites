@@ -4,6 +4,10 @@ installModules(){
   npm install --save
 }
 
+createAngularBuild(){
+   ng build --prod
+}
+
 buildDockerImage(){
 docker build -t docker-example .
 }
@@ -13,6 +17,8 @@ docker run -it -p 80:80 docker-example
 }
 
 installModules
+
+createAngularBuild
 
 buildDockerImage
 
