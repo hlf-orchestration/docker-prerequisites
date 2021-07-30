@@ -1,5 +1,7 @@
 FROM node:12
-WORKDIR /home/node/app
-COPY app /home/node/app
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-CMD npm run app
+COPY . /app
+CMD node app.js
+EXPOSE 3000

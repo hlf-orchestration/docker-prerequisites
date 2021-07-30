@@ -42,6 +42,8 @@ node_modules/
 jspm_packages/
 ./Docker-NodeJS-LoadBalancer/app/node_modules/
 ./Docker-NodeJS-LoadBalancer/app/node_modeules/*
+./Node-JS-Containerization/node_modules/
+./Node-JS-Containerization/node_modules/*
 # TypeScript v1 declaration files
 typings/
 
