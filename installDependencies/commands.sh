@@ -1,5 +1,5 @@
 installDocker(){
-sudo apt install docker 
+sudo apt install docker.io
 }
 
 
