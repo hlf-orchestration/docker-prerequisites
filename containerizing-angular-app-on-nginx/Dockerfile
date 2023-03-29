@@ -1,2 +1,2 @@
-FROM nginx:1.17.1-alpine
+FROM nginx:stable-alpine
 COPY /dist/docker-example /usr/share/nginx/html
